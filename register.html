@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FORM</title>
+</head>
+<link rel="stylesheet" href="styles.css" />
+<body>
+    <h2  class="customer">BUY OUR PRODUCT </h2>
+        <form  class="customer">
+        <label for="title">choose title </label>
+        <select name="title" id="title">
+            <option value="MR">MR</option>
+             <option value="MRS">MRS</option>
+              <option value="MISS">MISS</option>
+        </select>
+        <br><br>
+        <label for="FIRSTNAME">FIRST NAME</label>
+        <input type="text" id="FIRSTNAME" placeholder="OGUNDARE" required >
+        <br><br>
+        <label for="LASTNAME">LAST NAME</label>
+        <input type="text" id="LASTNAME" placeholder="SAMUEL" required >
+        <br><br>
+        <label for="TEL">TELEPHONE</label>
+        <input type="tel" id="tel" placeholder="+234" required >
+        <br><br>
+        <label for="verify"> VERIFY ADDRESS</label>
+        <br>
+        <textarea id="verify" name="verify" rows="10" cols="20" placeholder="verify your address" required>
+        </textarea>
+        <br><br>
+        <label for="product"> ADD TO CART</label>
+        <select required>
+            <option value="product">iO Series 7</option>
+             <option value="product">iO Series 9</option>
+              <option value="product">Oral-B iO Series 10 </option>
+              <option value="product">Oral-B + Crest Gum </option>
+              <option value="product">Oral-B Best Design </option>
+            </select>
+              <p>Use Promo Code: <textarea placeholder="BOH232" required> </textarea></p>
+              <label for="newletter"> <b>ADD TO OUR NEWSLETTER?</b></label>
+              <input type="checkbox" id="newletter" required>
+              <br><br>
+              <label for="save"><b>would you like us to save your information?</b> </label>
+               <input type="checkbox" id="save" required>
+               <br><br>
+               <label for="agree"><b>agree to terms and conditions</b></label>
+                <input type="checkbox" id="agree" required>
+                <br><br>
+                   <button  class="about">submit</button>
+                </form></div>
+</body>
+</html>

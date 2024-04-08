@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.about {
+  font-size: 15px;
+  background-color: #1d9bf0;
+  color: white;
+  padding: 7px 16px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 50px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+.product {
+  font-size: 15px;
+  background-color: #1d9bf0;
+  color: white;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 50px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.view {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.back {
+  background-color: white;
+  color: #065fd4;
+  border: 1px solid #065fd4;
+  padding: 9px 15px;
+  transition: background-color 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.customer {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.oral{
+   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
